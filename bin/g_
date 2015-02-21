@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+require 'g'
+
+begin
+  g_session = GGIT.new(ARGV, STDIN)
+rescue
+  $stderr.print "#!Error: " + $!
+end
