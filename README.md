@@ -1,21 +1,21 @@
-# g!
+# g_
 The basic purpose is to provide some simple automations based upon common git workflows
 
 ## Installation
 From Rubygems:
 ```
-$ gem install g!
+$ gem install g_
 ```
 
 From github:
 ```
-$ gem "g!", :git => "git://github.com/Gioyik/g.git"
+$ gem "g_", :git => "git://github.com/Gioyik/g_.git"
 ```
 
 From source:
 ```
 $ gem build g.gemspec
-$ gem install ./g!-X.X.X.gem
+$ gem install ./g_-X.X.X.gem
 ```
 
 ## Usage
